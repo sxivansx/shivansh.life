@@ -17,6 +17,9 @@ export const metadata: Metadata = {
   title: "Shivansh Pandey",
   description:
     "Designer who codes. Brand, UI/UX, Graphics, Motion — and the dev to ship it. Based in Bengaluru, India.",
+  icons: {
+    icon: "/avatar.jpg",
+  },
 };
 
 const consoleScript = `

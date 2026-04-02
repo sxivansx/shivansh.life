@@ -2,11 +2,11 @@ import { FadeIn } from "./fade-in";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center px-6 py-24 md:py-40">
-      <main className="w-full max-w-2xl space-y-12">
+    <div className="flex flex-col flex-1 items-center justify-center px-6 py-16 md:py-28">
+      <main className="w-full max-w-2xl space-y-10">
         {/* Header */}
         <FadeIn>
-          <header className="space-y-5">
+          <header>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/avatar.jpg"
@@ -15,19 +15,21 @@ export default function Home() {
               height={64}
               className="rounded-full"
             />
-            <h1 className="text-3xl font-semibold tracking-tight">
+            <h1 className="mt-4 text-3xl font-semibold tracking-tight">
               Shivansh Pandey
             </h1>
-            <p className="text-sm leading-relaxed opacity-60">
+            <p className="mt-1.5 text-sm leading-relaxed opacity-60">
               designer who codes. brands, interfaces, motion, and the dev to
-              ship it. bengaluru, india.
+              ship it.
+              <br />
+              bengaluru, india.
             </p>
           </header>
         </FadeIn>
 
         {/* About */}
         <FadeIn>
-          <section className="space-y-5">
+          <section className="space-y-2.5">
             <SectionTitle>About</SectionTitle>
             <p className="text-sm leading-relaxed opacity-70">
               i design brands from scratch and build the products to go with
@@ -40,9 +42,9 @@ export default function Home() {
 
         {/* Now */}
         <FadeIn>
-          <section className="space-y-5">
+          <section className="space-y-2.5">
             <SectionTitle>Now</SectionTitle>
-            <div className="space-y-3.5 text-sm leading-relaxed">
+            <div className="space-y-2 text-sm leading-relaxed">
               <Row label="building">
                 <a href="https://desk.shivansh.life" target="_blank" rel="noopener noreferrer">
                   desk.shivansh.life
@@ -60,7 +62,7 @@ export default function Home() {
 
         {/* Listening */}
         <FadeIn>
-          <section className="space-y-5">
+          <section className="space-y-2.5">
             <SectionTitle>Listening</SectionTitle>
             <iframe
               src="https://open.spotify.com/embed/playlist/34dNUG6lDAItUagmNLTrxu?utm_source=generator&theme=0"
@@ -77,9 +79,9 @@ export default function Home() {
 
         {/* Experience */}
         <FadeIn>
-          <section className="space-y-5">
+          <section className="space-y-2.5">
             <SectionTitle>Experience</SectionTitle>
-            <div className="space-y-3 text-sm">
+            <div className="space-y-4 text-sm">
               <ExpRow
                 company="RemoteStar"
                 href="https://remotestar.io/"
@@ -125,9 +127,9 @@ export default function Home() {
 
         {/* Design Projects */}
         <FadeIn>
-          <section className="space-y-5">
+          <section className="space-y-2.5">
             <SectionTitle>Design Projects</SectionTitle>
-            <div className="space-y-3.5 text-sm">
+            <div className="space-y-2 text-sm">
               <Row label={<a href="https://www.behance.net/gallery/225193097/NexTribe-Local-Communities-App-(UIUX-Branding)" target="_blank" rel="noopener noreferrer">NexTribe</a>}>
                 ui/ux, branding, promo assets for a community discovery app
               </Row>
@@ -140,9 +142,9 @@ export default function Home() {
 
         {/* Dev Projects */}
         <FadeIn>
-          <section className="space-y-5">
+          <section className="space-y-2.5">
             <SectionTitle>Dev Projects</SectionTitle>
-            <div className="space-y-3.5 text-sm">
+            <div className="space-y-2 text-sm">
               <Row label={<a href="https://github.com/sxivansx/cert-proj" target="_blank" rel="noopener noreferrer">cert-proj</a>}>
                 certificate generation tool <Muted>python</Muted>
               </Row>
@@ -160,7 +162,7 @@ export default function Home() {
 
         {/* GitHub */}
         <FadeIn>
-          <section className="space-y-5">
+          <section className="space-y-2.5">
             <SectionTitle>GitHub</SectionTitle>
             <div className="space-y-3">
               <p className="text-sm opacity-70">
@@ -189,9 +191,9 @@ export default function Home() {
 
         {/* Skills */}
         <FadeIn>
-          <section className="space-y-5">
+          <section className="space-y-2.5">
             <SectionTitle>Skills</SectionTitle>
-            <div className="space-y-3.5 text-sm">
+            <div className="space-y-2 text-sm">
               <Row label="design">
                 brand · logo · ui/ux · product design · design systems ·
                 prototyping · wireframing · ux research · graphics ·
@@ -212,7 +214,7 @@ export default function Home() {
 
         {/* Education */}
         <FadeIn>
-          <section className="space-y-5">
+          <section className="space-y-2.5">
             <SectionTitle>Education</SectionTitle>
             <p className="text-sm opacity-70">
               dayananda sagar college of engineering
@@ -223,7 +225,7 @@ export default function Home() {
 
         {/* Links */}
         <FadeIn>
-          <section className="space-y-5">
+          <section className="space-y-2.5">
             <SectionTitle>Links</SectionTitle>
             <div className="flex flex-wrap gap-x-5 gap-y-2 text-sm opacity-70">
               <a href="mailto:sxivansx@duck.com">email</a>
@@ -238,7 +240,7 @@ export default function Home() {
 
         {/* Footer */}
         <FadeIn>
-          <footer className="pt-10 border-t border-current/10 text-xs opacity-30 space-y-3">
+          <footer className="pt-6 border-t border-current/10 text-xs opacity-30 space-y-2">
             <p className="italic">
               &ldquo;when do you think people die? when they are forgotten.&rdquo;
               — dr. hiluluk
