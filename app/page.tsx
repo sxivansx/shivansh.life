@@ -98,8 +98,10 @@ export default function Home() {
               />
               <ExpRow
                 company="Twintro"
+                href="https://www.linkedin.com/company/twintro/posts/?feedView=all"
                 role="UI/UX Designer"
                 period="2026"
+                desc="user journey flows, ux structure, landing page seo, internal next.js prototype"
               />
               <ExpRow
                 company="Point Blank — Zenith"
@@ -229,10 +231,10 @@ export default function Home() {
             <SectionTitle>Links</SectionTitle>
             <div className="flex flex-wrap gap-x-5 gap-y-2 text-sm opacity-70">
               <a href="mailto:sxivansx@duck.com">email</a>
-              <a href="https://www.behance.net/sxivansx" target="_blank" rel="noopener noreferrer">behance</a>
-              <a href="https://www.linkedin.com/in/sxivansx" target="_blank" rel="noopener noreferrer">linkedin</a>
+              <a href="https://www.behance.net/shivansh-life" target="_blank" rel="noopener noreferrer">behance</a>
+              <a href="https://www.linkedin.com/in/shivansh-life" target="_blank" rel="noopener noreferrer">linkedin</a>
               <a href="https://www.instagram.com/shivansh.life" target="_blank" rel="noopener noreferrer">instagram</a>
-              <a href="https://x.com/sxivansx" target="_blank" rel="noopener noreferrer">x</a>
+              <a href="https://x.com/shivansh_life" target="_blank" rel="noopener noreferrer">x</a>
               <a href="https://github.com/sxivansx" target="_blank" rel="noopener noreferrer">github</a>
             </div>
           </section>
